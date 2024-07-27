@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AcronymJS Demo</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="jquery.acronym.js"></script>
+        <style type="text/css">
+            body {
+                padding: 5%;
+                margin: 0;
+                font: 1em/1.5 serif;
+                background: #eee;
+                color: #222;
+            }
+
+            h1 {
+                margin: 0;
+                font: bold 2em/1.5 serif;
+            }
+            a {
+                font-size: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>What is SVG</h1>
+        <p>
+            The development of scalable vector graphics began in 1999 and some big names had their hands in the SVG pot. Companies, such as Adobe, Apple and IBM, all took part in defining and creating this new feature. In 2001, SVG got a facelift to include mobile profiles, print capabilities and improved display properties. One draw back has always been the lagging Internet Explorer. Other browsers already make use of SVG, but IE was behind in the game. With version 9, Internet Explorer will be compatible with SVG and you should start seeing an expansion of the format.
+        </p>
+            
+        <p>
+            When discussing graphics, terms like JPEG and GIF are probably what most novice designers recognize. There are advantages to using SVG instead. SVG files are smaller and easier to compress than other formats. Graphics with SVG will print in a higher resolution. Editing of SVG can be done with even rudimentary tools, such as Notepad. SVG images are zoomable and scalable. Like other graphics, SVG works as a static or animated image.
+        </p>
+        <p>
+            There is certainly much more to working with SVG then the basics. Animation, filters, gradients all are available when creating SVG images. Like anything worth knowing, SVG takes some practice. However, with Internet Explorer coming into the SVG arena, it should be time well spent.
+        </p>
+        <a href="http://webdesign.about.com/od/svg/a/what-is-svg.htm">http://webdesign.about.com/od/svg/a/what-is-svg.htm</a>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $("p, h1").acronym();
+            });
+        </script>
+    </body>
+</html>
