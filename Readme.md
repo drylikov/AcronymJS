@@ -49,9 +49,3 @@ Install [Grunt](http://gruntjs.com), go to `src` folder and type
 ```
 grunt
 ```
-
-## Release History
-
-### 2013-02-09 v1.0.0
-
-* First public version.
